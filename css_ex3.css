@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    
+}
+
+.title{
+    background-color:rgb(22, 22, 67);  
+    height: 50px;
+    color:white;
+    text-align:center;
+}
+
+.banner{
+    height: 300px;
+      
+    background-image:url("https://www.karunya.edu/sites/default/files/img/images/karunya-campus-view.jpg.pagespeed.ce.IyizWonRVf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;  
+    object-fit: contain;
+}
+.heading{
+    text-align:center;
+    background-color: antiquewhite;
+}
+#para{
+    background-color: antiquewhite;
+    text-align: justify;
+    vertical-align: middle;
+}
+.myBox1{
+    width: 500px;
+    height: 250px;
+    background: url(https://www.pallaviengineeringcollege.ac.in/wp-content/uploads/2022/04/CSE-500x372.jpg) no-repeat;
+    position: relative;
+    float: left;
+}
+.myBox1 #text{
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);/*  opacity */
+    color: white;
+    width: 100%;
+    padding: 20px;
+       
+}
+.myBox2{
+    width: 500px;
+    height: 250px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Duke_Humfrey%27s_Library_Interior_6%2C_Bodleian_Library%2C_Oxford%2C_UK_-_Diliff.jpg/500px-Duke_Humfrey%27s_Library_Interior_6%2C_Bodleian_Library%2C_Oxford%2C_UK_-_Diliff.jpg) no-repeat;
+    position: center;  
+    position: relative;
+    /*border:1px solid red;*/
+    float: left;
+}
+.myBox2 #text{
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);/*  opacity */
+    color: white;
+    width: 92%;
+    padding: 20px;
+
+}
+.myBox3{
+    width: 510px;
+    height: 250px;
+    background: url(https://cb.iiitd.ac.in/images/cb-slider-banner1.jpg) no-repeat;
+    background-size: cover;
+    position: center;  
+    position: relative;
+    float: left;
+}
+.myBox3 #text{
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);/*  opacity */
+    color: white;
+    width: 92%;
+    padding: 20px;
+}
+
+#para1{
+    width: 36.5%;
+    padding: 100px;
+    margin: 0px;
+    background-color: antiquewhite;
+    text-align: justify;
+    float: left;
+}
+.myBox4{
+    width: 50%;
+    height: 356px;
+    background: url("https://media.istockphoto.com/photos/rear-view-of-large-group-of-students-on-a-class-at-lecture-hall-picture-id1138138146") no-repeat;
+    align-content: flex-end;
+    position: top;  
+    float: right;
+}
+.signupFrm{
+    width:50%;
+    background-image: url("Celeste-.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+
+    box-sizing: border-box;
+    margin:0x;
+    padding: 70px;
+    background-color: white;
+    font-family: "lato", sans-serif;
+
+    position: center; 
+    float:left;
+  }
+.form {
+    background-color: white;
+    width: 400px;
+    border-color:black;
+    padding: 20px 40px;
+
+  }
+
+.title2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+.inputContainer {
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+  }
+.input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+  }
+::placeholder {
+    color: transparent;
+  }
+.label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: white;
+    color: #DADCE0;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+  }
+.submitBtn {
+    width:400px;
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: rgb(59, 32, 234);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+#para2{
+    width: 36.5%;
+    padding: 100px;
+    margin: 0px;
+    background-color: antiquewhite;
+    text-align: justify;
+    float: right;  
+}
